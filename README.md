@@ -71,8 +71,8 @@ Once the system is running, you can interact with it in various ways:
 ### Voice Commands
 The system is designed to accept voice commands such as:
 - "Turn on the lights."
-- "Set the thermostat to 72°F."
-- "Turn off the security system."
+- "Turn on the fan."
+- "Turn on the TV."
 
 ### Manual Control
 If you'd like, you can also manually control devices through the user interface or configuration files.
@@ -87,8 +87,8 @@ command_map = {
         "light off": "a0",
         "fan on": "b1",
         "fan off": "b0",
-        "door open": "c1",
-        "door close": "c0"
+        "tv on": "c1",
+        "tv off": "c0"
     }
 ```
 
